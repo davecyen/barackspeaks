@@ -97,17 +97,27 @@ a:focus {
 	border-radius: 0 0 8px 8px; /* future proofing */
 }
 
-header {
-	display: text;
-	cursor: text;
+.ribbon {
+	position: relative;
 	padding: 15px;
 	margin: 10px 0 0 0;
 	background-color: black;
 		opacity: .5;
+	display: text;
+	cursor: text;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+.logo img {
+	position: absolute;
+	left:0;
+	top:0;
+	vertical-align: center;
+	opacity: .8;
+	padding: 5px 0 0 10px;
 }
 
 .container {
